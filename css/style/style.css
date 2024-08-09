@@ -1,0 +1,22 @@
+body{
+    background-color: hsl(270, 84%, 81%);
+}
+.maindiv{
+    background-color: rgba(221, 160, 221, 0.89);
+}
+
+.maindiv .div-1{
+    background-color:rgb(235, 115, 235) ;
+    color: white;
+}
+/* .div-2{
+    color: white;
+} */
+
+.div-2{
+    color: unset;
+}
+
+/* #demo{
+    background-color: aqua;
+} */
