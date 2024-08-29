@@ -1,0 +1,29 @@
+/* CSS Background */
+
+.background-image {
+    background-image: url(../asset/images/image1.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+    background-size: cover;
+    /* background-size:contain; */
+    /* background-position: top right; */
+    height: 100px;
+    max-width: 1500px;
+    border: 50px solid transparent;
+    padding: 100px;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+
+ /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);; */
+}
+
+/* https://cssgradient.io/ */
+
