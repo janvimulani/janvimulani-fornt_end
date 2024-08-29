@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.maindiv{
+    height: 800px;
+    width: 800px;
+    background-color:paleturquoise;
+    border: 2px solid black;
+    position: relative;
+}
+.static-1{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+}
+.static-2{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    margin: auto;
+}
+
+
+.div-1{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    margin: auto;
+}
+.div-2{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.item-1{
+    height:150px ;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.item-2{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.box-1{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+.box-2{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.squre-1{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 300px;
+    margin: auto;
+    
+}
+.squre-2{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    margin: auto;
+
+}
+
+.div-3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+.div-4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.item-3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.item-4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.box-3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+.box-4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.static-3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    bottom: 0;
+    right: 0;
+}
+.static-4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    bottom: 0;
+    right: 0;
+}

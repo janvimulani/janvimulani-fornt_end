@@ -1,0 +1,89 @@
+.container {
+    height: 600px;
+    width: 600px;
+    background-color: powderblue;
+    border: 2px solid black;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+ .box1 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ .box2 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.box3 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+}
+
+ .box4 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    left: 250px;
+}
+
+ .box5 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+ .box6 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+}
+
+ .box7 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+}
+
+ .box8 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+ .box9 {
+    background-color: palegreen;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

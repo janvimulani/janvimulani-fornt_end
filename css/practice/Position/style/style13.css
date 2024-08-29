@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+
+.content {
+    height: 800px;
+    width: 800px;
+    border: 4px dashed black;
+    position: relative;
+    margin: 50px 80px;
+    background-color: burlywood;
+    font-size:large;
+    justify-content: center;
+    
+}
+
+.content img {
+    width: 100px; 
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: 150px;
+     z-index: 2;
+     
+}
+
+.content p {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    font-family: monospace;
+}
