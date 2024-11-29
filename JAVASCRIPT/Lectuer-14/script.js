@@ -1,63 +1,72 @@
 
-        // Set is a unique collection of records
+/* Javascript Array Method */
 
-        let set = new Set();
-        console.log(set);
+const newArray = ['html' , 'css' , 45 , undefined , null]
 
-        // Set Old Methods
+console.log(newArray);
 
-        set.add(10);
-        set.add(20);
-        set.add(30);
-        set.add(40);
-        console.log(set);
+console.log(newArray.length);
 
-        const iterator = set.values();
+newArray.length = 10
 
-        console.log(iterator.next().value);
-        console.log(iterator.next().value);
+console.log(newArray);
 
-        // set.clear();
-        // console.log(set);
+console.log(newArray[5]);
 
-        set.delete(20);
-        console.log(set);
+newArray.length = 6
 
-        console.log(set.has(20));
+console.log(newArray);
 
-        set.forEach((value) => {
-            console.log("Value " + value);
-        });
+const array = new Array(10 , 20)
 
-        // Set New Methods
+console.log(array);
 
-        {
-            const newSet1 = new Set([10, 45, 2, 5, 30]);
-            // const newSet2 = new Set([10, 45, 2, 5, 30]);
-            const newSet2 = new Set([3, 6, 5, 30, 20, 15]);
+const array1 = [10 , 20]
 
-            // Difference
+console.log(array1);
 
-            console.log(newSet1.difference(newSet2));
-            console.log(newSet2.difference(newSet1));
+const newArray2 = [1 , 2 , 3 , 4 , 5 , 6]
 
-            // Intersection
+console.log(newArray2);
 
-            console.log(newSet1.intersection(newSet2));
+newArray2[0] = 'skill'
 
-            // Union
+console.log(newArray2);
 
-            console.log(newSet1.union(newSet2));
+newArray2.pop()
 
-            // isDisjointFrom (return false when there is common element and true if there is no common element)
+console.log(newArray2);
 
-            console.log(newSet1.isDisjointFrom(newSet2));
+newArray2.shift()
 
-            // isSubsetOf (return true if set1 all elements are present in set2 else false)
+console.log(newArray2);
 
-            console.log(newSet1.isSubsetOf(newSet2));
+newArray2.push(6)
 
-            // isSupersetOf
+console.log(newArray2);
 
-            console.log(newSet1.isSupersetOf(newSet2));
-        }
+newArray2.unshift(1)
+
+console.log(newArray2);
+
+{
+    let array1 = [1 , 2 , 3]
+    let array2 = [4 , 5 , 6]
+
+    console.log(array1);
+    console.log(array2);
+
+    let array3 = array1.concat(array2)
+
+    console.log(array3);
+
+    array1[0] = 11
+
+    console.log(array3);
+
+    console.log(array1);
+    
+    
+    
+    
+}
