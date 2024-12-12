@@ -147,7 +147,7 @@
       Profile.name = 'Kirtan'
   
       console.log(Profile);
-  
+   
       let frozenObject = Object.isFrozen(Profile)
   
       console.log(frozenObject);
@@ -248,3 +248,5 @@
     
     console.log(Object.keys(object1));
 }
+
+
