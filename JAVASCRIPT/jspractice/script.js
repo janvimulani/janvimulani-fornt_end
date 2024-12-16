@@ -45,7 +45,7 @@ const miles = 0.62137119;
 let kilometers = 15;
 
 console.log(kilometers * miles);
-}
+
 
 {
 // 8) Javascript Program to Convert Celsius to Fahrenheit
@@ -63,33 +63,33 @@ let randomNum = Math.round(Math.random() * 100 + 1);
 console.log(randomNum);
 }
 
-{
+
 // 10) Javascript Program to Check if a number is Positive, Negative, or Zero
 
 
-let num = 0;
+// let num = 0;
 
-if (num > 0) {
-    console.log(${num} is positive);
-} else if (num < 0) {
-    console.log(${num} is negative);
-} else {
-    console.log(${num} is zero);
-}
-}
+// if (num > 0) {
+//     console.log(${num} is positive);
+// } else if (num < 0) {
+//     console.log(${num} is negative);
+// } else {
+//     console.log(${num} is zero);
+// }
+// }
 
-{
+
 // 11) Javascript Program to Check if a Number is Odd or Even
 
-let num = 15;
+// let num = 15;
 
-if (num % 2 == 0) {
-    console.log(${num} is even);
-} else {
-    console.log(${num} is odd);
-}
+// if (num % 2 == 0) {
+//     console.log(${num} is even);
+// } else {
+//     console.log(${num} is odd);
+// }
 
-}
+// }
 
 {
 // 12) JavaScript Program to Find the Largest Among Three Numbers
@@ -199,4 +199,152 @@ if ((num1 > num2) && (num1 > num3)) {
     } else {
         console.log("Both not have same last digit");
     }
+}
+
+
+
+
+{
+    // 32) JavaScript Program to Find ASCII Value of Character
+
+    let str = "JavaScript";
+    console.log(str.charCodeAt(2));
+}
+
+{
+    // 33) JavaScript Program to Check Whether a String is Palindrome or Not
+
+    let str = "ABA";
+    let reverseStr = "";
+    
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverseStr += str[i];
+    }
+    
+    // if (str === reverseStr) {
+    //     console.log("String is Palindrome");
+    // } else {
+    //     console.log("String is not Palindrome")
+    // }
+
+    reverseStr = str.split("").reverse().join("");
+
+    if (str === reverseStr) {
+        console.log("String is Palindrome");
+    } else {
+        console.log("String is not Palindrome")
+    }
+}
+
+{
+    // 34) JavaScript Program to Sort Words in Alphabetical Order
+
+    let str = "This is a JavaScript";
+    let strSplit = str.split("");
+    let sortedStr = strSplit.sort().join("");
+
+    console.log(sortedStr);
+}
+
+{
+    // 35) JavaScript Program to Replace Characters of a String
+
+    let str = "This is JavaScript. JavaScript is a scripting language.";
+    console.log(str.replaceAll("JavaScript", ".Net"));
+}
+
+{
+    // 36) JavaScript Program to Reverse a String
+
+    let str = "Reverse";
+    console.log(str.split("").reverse().join(""));
+}
+
+{
+    // 37) JavaScript Program to Create Objects in Different Ways
+
+    const obj = {
+        name: "Madhav",
+        age: 52,
+        gender: "Male",
+        sayHello: function() {
+            console.log("Hello World!");
+        }
+    };
+
+    obj.sayHello();
+
+    const obj1 = new Object();
+    obj1.firstName = "Virat";
+    obj1.lastName = "Kohli";
+
+    console.log(obj1);
+}
+
+{
+    // 38) JavaScript Program to Check the Number of Occurrences of a Character in the String
+
+    let str = "This is a JavaScript. JavaScript is a scripting language";
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) == 'i') {
+            count++;
+        }
+    }
+    console.log(`Number of occurences of a character ${count}`);
+}
+
+{
+    // 39) JavaScript Program to Convert the First Letter of a String into UpperCase
+
+    let str = "this is a javascript";
+    let strSplit = str.split(' ');
+
+
+    for (let i = 0; i < strSplit.length; i++) {
+        strSplit[i] = strSplit[i][0].toUpperCase() + strSplit[i].substring(1);
+    }
+    console.log(strSplit.join(' '));
+}
+
+{
+    // 40) JavaScript Program to Count the Number of Vowels in a String
+
+    let str = "JavaScript is a scripting language";
+    let countVowels = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+            countVowels++;
+        }
+    }
+
+    console.log("Vowels ", countVowels);
+}
+
+{
+    // 41) JavaScript Program to Remove a Property from an Object
+
+    const obj = {
+        name: "Smit",
+        age: 25,
+        qualification: "BCA",
+        gender: "Male"
+    };
+
+    console.log(obj);
+    
+    delete obj.age;
+    delete obj.gender;
+
+    console.log(obj);
+}
+
+{
+    // 42) JavaScript Program to Check Whether a String Starts and Ends With Certain Characters
+
+    let str = "Vijay Sharma";
+    console.log(str.startsWith('V'));
+    console.log(str.endsWith('a'));
 }
